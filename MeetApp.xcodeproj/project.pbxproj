@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A223D4C82B32A93500B7C6CB /* Richability.swift in Sources */ = {isa = PBXBuildFile; fileRef = A223D4C72B32A93500B7C6CB /* Richability.swift */; };
+		A223D4CA2B32A97600B7C6CB /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = A223D4C92B32A97600B7C6CB /* Downloader.swift */; };
+		A223D4CC2B32E2CB00B7C6CB /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A223D4CB2B32E2CB00B7C6CB /* ItemTableViewCell.swift */; };
+		A277AF732B2F3E9800FD434E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A277AF722B2F3E9700FD434E /* GoogleService-Info.plist */; };
+		A277AF752B2F661200FD434E /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A277AF742B2F661200FD434E /* WelcomeViewController.swift */; };
+		A277AF772B2F661F00FD434E /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A277AF762B2F661F00FD434E /* RegisterViewController.swift */; };
+		A2A4F4422B30B243002925BA /* FUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A4F4412B30B243002925BA /* FUser.swift */; };
+		A2A4F4442B30C092002925BA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A4F4432B30C092002925BA /* Constants.swift */; };
+		A2A4F4492B30C5E8002925BA /* FCollectionReference.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A4F4482B30C5E8002925BA /* FCollectionReference.swift */; };
+		A2A4F44B2B30C6C4002925BA /* FirebaseListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A4F44A2B30C6C4002925BA /* FirebaseListener.swift */; };
+		A2A4F44D2B30DB45002925BA /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A4F44C2B30DB45002925BA /* Extensions.swift */; };
+		A2A4F44F2B31CAFC002925BA /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A4F44E2B31CAFC002925BA /* ProfileTableViewController.swift */; };
+		A2A4F4512B31EA60002925BA /* FileStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2A4F4502B31EA60002925BA /* FileStorage.swift */; };
+		A2BA35D62B323C430033E7F4 /* CategoryCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BA35D52B323C430033E7F4 /* CategoryCollectionViewController.swift */; };
+		A2BA35D92B323CC20033E7F4 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BA35D82B323CC20033E7F4 /* CategoryCollectionViewCell.swift */; };
+		A2BA35DD2B323ED90033E7F4 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BA35DC2B323ED90033E7F4 /* Category.swift */; };
+		A2BA35DF2B3251C70033E7F4 /* ItemsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BA35DE2B3251C70033E7F4 /* ItemsTableViewController.swift */; };
+		A2BA35E12B32526A0033E7F4 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BA35E02B32526A0033E7F4 /* Item.swift */; };
+		A2BA35E32B32A1100033E7F4 /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BA35E22B32A1100033E7F4 /* AddItemViewController.swift */; };
+		A2D7488E2B2EE9DE00389496 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7488D2B2EE9DE00389496 /* AppDelegate.swift */; };
+		A2D748902B2EE9DE00389496 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2D7488F2B2EE9DE00389496 /* SceneDelegate.swift */; };
+		A2D748952B2EE9DE00389496 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D748932B2EE9DE00389496 /* Main.storyboard */; };
+		A2D748972B2EE9DF00389496 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2D748962B2EE9DF00389496 /* Assets.xcassets */; };
+		A2D7489A2B2EE9DF00389496 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2D748982B2EE9DF00389496 /* LaunchScreen.storyboard */; };
+		BE65FC6A2B6B6F010B657902 /* Pods_MeetApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E36130AE58AF995321B7D369 /* Pods_MeetApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E62B76333216FC12A4F6CEE /* Pods-MeetApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetApp.release.xcconfig"; path = "Target Support Files/Pods-MeetApp/Pods-MeetApp.release.xcconfig"; sourceTree = "<group>"; };
+		6C590A5AE0D7EE24D6A6F237 /* Pods-MeetApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetApp.debug.xcconfig"; path = "Target Support Files/Pods-MeetApp/Pods-MeetApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A223D4C72B32A93500B7C6CB /* Richability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Richability.swift; sourceTree = "<group>"; };
+		A223D4C92B32A97600B7C6CB /* Downloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
+		A223D4CB2B32E2CB00B7C6CB /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		A277AF722B2F3E9700FD434E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A277AF742B2F661200FD434E /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		A277AF762B2F661F00FD434E /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		A2A4F4412B30B243002925BA /* FUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FUser.swift; sourceTree = "<group>"; };
+		A2A4F4432B30C092002925BA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A2A4F4482B30C5E8002925BA /* FCollectionReference.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FCollectionReference.swift; sourceTree = "<group>"; };
+		A2A4F44A2B30C6C4002925BA /* FirebaseListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseListener.swift; sourceTree = "<group>"; };
+		A2A4F44C2B30DB45002925BA /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		A2A4F44E2B31CAFC002925BA /* ProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		A2A4F4502B31EA60002925BA /* FileStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileStorage.swift; sourceTree = "<group>"; };
+		A2BA35D32B3212520033E7F4 /* MeetApp.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = MeetApp.entitlements; sourceTree = "<group>"; };
+		A2BA35D52B323C430033E7F4 /* CategoryCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewController.swift; sourceTree = "<group>"; };
+		A2BA35D82B323CC20033E7F4 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		A2BA35DC2B323ED90033E7F4 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		A2BA35DE2B3251C70033E7F4 /* ItemsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemsTableViewController.swift; sourceTree = "<group>"; };
+		A2BA35E02B32526A0033E7F4 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		A2BA35E22B32A1100033E7F4 /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
+		A2D7488A2B2EE9DE00389496 /* MeetApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2D7488D2B2EE9DE00389496 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A2D7488F2B2EE9DE00389496 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A2D748942B2EE9DE00389496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2D748962B2EE9DF00389496 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2D748992B2EE9DF00389496 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2D7489B2B2EE9DF00389496 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E36130AE58AF995321B7D369 /* Pods_MeetApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeetApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2D748872B2EE9DE00389496 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE65FC6A2B6B6F010B657902 /* Pods_MeetApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A1690C32DED2516E44E3766 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C590A5AE0D7EE24D6A6F237 /* Pods-MeetApp.debug.xcconfig */,
+				2E62B76333216FC12A4F6CEE /* Pods-MeetApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		99D370AEB39C5F7808FB4E11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E36130AE58AF995321B7D369 /* Pods_MeetApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A2A4F4452B30C574002925BA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A2A4F4432B30C092002925BA /* Constants.swift */,
+				A2A4F4482B30C5E8002925BA /* FCollectionReference.swift */,
+				A2A4F44A2B30C6C4002925BA /* FirebaseListener.swift */,
+				A2A4F44C2B30DB45002925BA /* Extensions.swift */,
+				A223D4C72B32A93500B7C6CB /* Richability.swift */,
+				A223D4C92B32A97600B7C6CB /* Downloader.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		A2A4F4462B30C580002925BA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A2A4F4412B30B243002925BA /* FUser.swift */,
+				A2BA35DC2B323ED90033E7F4 /* Category.swift */,
+				A2BA35E02B32526A0033E7F4 /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A2A4F4472B30C5A5002925BA /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				A277AF742B2F661200FD434E /* WelcomeViewController.swift */,
+				A277AF762B2F661F00FD434E /* RegisterViewController.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		A2BA35D42B322A630033E7F4 /* FirebaseHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				A2A4F4502B31EA60002925BA /* FileStorage.swift */,
+			);
+			path = FirebaseHelpers;
+			sourceTree = "<group>";
+		};
+		A2BA35D72B323C510033E7F4 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A2BA35D52B323C430033E7F4 /* CategoryCollectionViewController.swift */,
+				A2BA35DE2B3251C70033E7F4 /* ItemsTableViewController.swift */,
+				A2BA35D82B323CC20033E7F4 /* CategoryCollectionViewCell.swift */,
+				A2BA35E22B32A1100033E7F4 /* AddItemViewController.swift */,
+				A223D4CB2B32E2CB00B7C6CB /* ItemTableViewCell.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A2D748812B2EE9DE00389496 = {
+			isa = PBXGroup;
+			children = (
+				A2D7488C2B2EE9DE00389496 /* MeetApp */,
+				A2D7488B2B2EE9DE00389496 /* Products */,
+				7A1690C32DED2516E44E3766 /* Pods */,
+				99D370AEB39C5F7808FB4E11 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A2D7488B2B2EE9DE00389496 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2D7488A2B2EE9DE00389496 /* MeetApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2D7488C2B2EE9DE00389496 /* MeetApp */ = {
+			isa = PBXGroup;
+			children = (
+				A2BA35D32B3212520033E7F4 /* MeetApp.entitlements */,
+				A2D7488D2B2EE9DE00389496 /* AppDelegate.swift */,
+				A2D7488F2B2EE9DE00389496 /* SceneDelegate.swift */,
+				A2A4F44E2B31CAFC002925BA /* ProfileTableViewController.swift */,
+				A2BA35D72B323C510033E7F4 /* Category */,
+				A2BA35D42B322A630033E7F4 /* FirebaseHelpers */,
+				A2A4F4472B30C5A5002925BA /* Welcome */,
+				A2A4F4462B30C580002925BA /* Model */,
+				A2A4F4452B30C574002925BA /* Helpers */,
+				A2D748932B2EE9DE00389496 /* Main.storyboard */,
+				A2D748962B2EE9DF00389496 /* Assets.xcassets */,
+				A2D748982B2EE9DF00389496 /* LaunchScreen.storyboard */,
+				A2D7489B2B2EE9DF00389496 /* Info.plist */,
+				A277AF722B2F3E9700FD434E /* GoogleService-Info.plist */,
+			);
+			path = MeetApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2D748892B2EE9DE00389496 /* MeetApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2D7489E2B2EE9DF00389496 /* Build configuration list for PBXNativeTarget "MeetApp" */;
+			buildPhases = (
+				047B07AFF8D489D6B3D62165 /* [CP] Check Pods Manifest.lock */,
+				A2D748862B2EE9DE00389496 /* Sources */,
+				A2D748872B2EE9DE00389496 /* Frameworks */,
+				A2D748882B2EE9DE00389496 /* Resources */,
+				34B498BE721E2E24B408F0D6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeetApp;
+			productName = MeetApp;
+			productReference = A2D7488A2B2EE9DE00389496 /* MeetApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2D748822B2EE9DE00389496 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					A2D748892B2EE9DE00389496 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = A2D748852B2EE9DE00389496 /* Build configuration list for PBXProject "MeetApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2D748812B2EE9DE00389496;
+			productRefGroup = A2D7488B2B2EE9DE00389496 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2D748892B2EE9DE00389496 /* MeetApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2D748882B2EE9DE00389496 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2D7489A2B2EE9DF00389496 /* LaunchScreen.storyboard in Resources */,
+				A277AF732B2F3E9800FD434E /* GoogleService-Info.plist in Resources */,
+				A2D748972B2EE9DF00389496 /* Assets.xcassets in Resources */,
+				A2D748952B2EE9DE00389496 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		047B07AFF8D489D6B3D62165 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeetApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34B498BE721E2E24B408F0D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeetApp/Pods-MeetApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MeetApp/Pods-MeetApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MeetApp/Pods-MeetApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2D748862B2EE9DE00389496 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2BA35E32B32A1100033E7F4 /* AddItemViewController.swift in Sources */,
+				A2A4F44B2B30C6C4002925BA /* FirebaseListener.swift in Sources */,
+				A2A4F4512B31EA60002925BA /* FileStorage.swift in Sources */,
+				A2BA35DF2B3251C70033E7F4 /* ItemsTableViewController.swift in Sources */,
+				A2BA35D62B323C430033E7F4 /* CategoryCollectionViewController.swift in Sources */,
+				A2BA35E12B32526A0033E7F4 /* Item.swift in Sources */,
+				A2A4F44D2B30DB45002925BA /* Extensions.swift in Sources */,
+				A2A4F4422B30B243002925BA /* FUser.swift in Sources */,
+				A277AF752B2F661200FD434E /* WelcomeViewController.swift in Sources */,
+				A2BA35D92B323CC20033E7F4 /* CategoryCollectionViewCell.swift in Sources */,
+				A223D4CA2B32A97600B7C6CB /* Downloader.swift in Sources */,
+				A223D4C82B32A93500B7C6CB /* Richability.swift in Sources */,
+				A223D4CC2B32E2CB00B7C6CB /* ItemTableViewCell.swift in Sources */,
+				A2D7488E2B2EE9DE00389496 /* AppDelegate.swift in Sources */,
+				A2D748902B2EE9DE00389496 /* SceneDelegate.swift in Sources */,
+				A2A4F44F2B31CAFC002925BA /* ProfileTableViewController.swift in Sources */,
+				A277AF772B2F661F00FD434E /* RegisterViewController.swift in Sources */,
+				A2A4F4492B30C5E8002925BA /* FCollectionReference.swift in Sources */,
+				A2A4F4442B30C092002925BA /* Constants.swift in Sources */,
+				A2BA35DD2B323ED90033E7F4 /* Category.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A2D748932B2EE9DE00389496 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2D748942B2EE9DE00389496 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2D748982B2EE9DF00389496 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2D748992B2EE9DF00389496 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2D7489C2B2EE9DF00389496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2D7489D2B2EE9DF00389496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2D7489F2B2EE9DF00389496 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C590A5AE0D7EE24D6A6F237 /* Pods-MeetApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MeetApp/MeetApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 4SHC2A7793;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MeetApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = Camera;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = Library;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = Photo;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.IzbassarO.MeetApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A2D748A02B2EE9DF00389496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E62B76333216FC12A4F6CEE /* Pods-MeetApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MeetApp/MeetApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "";
+				DEVELOPMENT_TEAM = 4SHC2A7793;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MeetApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = Camera;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = Library;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = Photo;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.IzbassarO.MeetApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2D748852B2EE9DE00389496 /* Build configuration list for PBXProject "MeetApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D7489C2B2EE9DF00389496 /* Debug */,
+				A2D7489D2B2EE9DF00389496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2D7489E2B2EE9DF00389496 /* Build configuration list for PBXNativeTarget "MeetApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2D7489F2B2EE9DF00389496 /* Debug */,
+				A2D748A02B2EE9DF00389496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2D748822B2EE9DE00389496 /* Project object */;
+}
